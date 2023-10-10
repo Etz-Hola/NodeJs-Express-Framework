@@ -27,6 +27,8 @@ const logEvents = async (message, logName) => {
   }
 };
 
+module.exports = logEvents;
+
 
 // console.log(format(new Date(), "'Today is a' eee"));
 //OR
